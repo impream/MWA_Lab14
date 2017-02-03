@@ -4,11 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { ExerciseListComponent } from './exercise-list/exercise-list.component';
+import { UppercaseDirective } from './uppercase.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
-  ],
+    AppComponent,
+    ExerciseListComponent,
+    ExerciseListComponent,
+    UppercaseDirective
+      ],
   imports: [
     BrowserModule,
     FormsModule,
